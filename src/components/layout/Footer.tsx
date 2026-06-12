@@ -25,7 +25,17 @@ export default function Footer() {
           aria-label="Liên kết pháp lý (Legal links)"
           className="flex flex-col items-center gap-3 sm:flex-row sm:justify-between"
         >
-          <p className="text-sm text-gray-500">© {currentYear} LASH NP</p>
+          <p className="text-sm text-gray-500">
+            © {currentYear}{" "}
+            <a
+              href="https://lashnp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-emerald-700 underline-offset-2 hover:underline"
+            >
+              LASH NP
+            </a>
+          </p>
           <ul className="flex items-center gap-4">
             <li>
               <button
