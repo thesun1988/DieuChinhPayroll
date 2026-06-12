@@ -167,7 +167,7 @@ export const CLASSIFICATION_QUESTIONS: ClassificationQuestion[] = [
     id: "relationship-core-service",
     category: "relationship",
     question:
-      "Công việc của thợ có phải là hoạt động cốt lõi của tiệm (làm nail cho khách) không?",
+      "Công việc của thợ có phải là hoạt động cốt lõi của tiệm (làm dịch vụ cho khách) không?",
     explanation:
       "Khi công việc là phần cốt lõi của hoạt động kinh doanh, người làm thường được xem là employee vì tiệm có xu hướng kiểm soát chặt phần việc này.",
     w2Indicator: true,
@@ -191,7 +191,7 @@ export const MISCLASSIFICATION_WARNING =
   "Phân loại sai (misclassification) thợ là 1099 trong khi thực tế là W-2 có thể " +
   "dẫn đến phạt nặng từ IRS, bao gồm truy thu thuế (back taxes), tiền phạt " +
   "(penalties) và lãi (interest). Đây là vấn đề bị IRS và bộ lao động bang " +
-  "nhắm tới mạnh với ngành nail. Khi không chắc chắn, hãy tham vấn CPA hoặc " +
+  "nhắm tới mạnh với ngành dịch vụ. Khi không chắc chắn, hãy tham vấn CPA hoặc " +
   "luật sư thuế, hoặc nộp Form SS-8 để IRS xác định.";
 
 /** Returns all questions belonging to a given control category. */

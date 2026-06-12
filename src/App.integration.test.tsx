@@ -80,7 +80,7 @@ describe("Flow navigation: landing → disclaimer → form → analyzing → res
     // 1. Landing page.
     expect(
       screen.getByRole("heading", {
-        name: /Chuyển Đổi Lương Tiệm Nail Một Cách An Toàn/i,
+        name: /Chuyển Đổi Lương Một Cách An Toàn/i,
       }),
     ).toBeInTheDocument();
 

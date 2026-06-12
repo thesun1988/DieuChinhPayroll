@@ -45,7 +45,7 @@ export const FEATURE_CARDS: FeatureCardConfig[] = [
     icon: "warning",
     title: "Cảnh báo IRS",
     description:
-      "Tìm hiểu các dấu hiệu bất thường (red flag) thường gặp trong ngành nail và cách phòng tránh để giảm rủi ro bị audit.",
+      "Tìm hiểu các dấu hiệu bất thường (red flag) thường gặp trong ngành dịch vụ ăn chia và cách phòng tránh để giảm rủi ro bị audit.",
     ctaLabel: "Bắt đầu",
   },
   {

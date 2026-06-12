@@ -29,9 +29,11 @@ afterEach(() => {
 });
 
 describe("Header", () => {
-  it("renders the Vietnamese app title", () => {
+  it("renders the app title as a clickable button", () => {
     render(<Header />, { wrapper });
-    expect(screen.getByText("Chuyển Đổi Lương Tiệm Nail")).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Safe Payroll" }),
+    ).toBeInTheDocument();
   });
 
   it("includes the mobile hamburger menu trigger", () => {

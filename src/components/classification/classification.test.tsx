@@ -101,7 +101,7 @@ describe("SplitModelGuide", () => {
     expect(
       screen.getByRole("heading", {
         level: 3,
-        name: /Mô hình Ăn Chia trong ngành nail/i,
+        name: /Mô hình Ăn Chia trong ngành dịch vụ/i,
       }),
     ).toBeInTheDocument();
     expect(screen.getByText(/Khai thuế đúng/i)).toBeInTheDocument();

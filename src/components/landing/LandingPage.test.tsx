@@ -17,7 +17,7 @@ describe("HeroSection", () => {
     render(<HeroSection />);
     expect(
       screen.getByRole("heading", {
-        name: /Chuyển Đổi Lương Tiệm Nail/i,
+        name: /Chuyển Đổi Lương/i,
       }),
     ).toBeInTheDocument();
   });
@@ -56,7 +56,7 @@ describe("LandingPage", () => {
       </FlowProvider>,
     );
     expect(
-      screen.getByRole("heading", { name: /Chuyển Đổi Lương Tiệm Nail/i }),
+      screen.getByRole("heading", { name: /Chuyển Đổi Lương/i }),
     ).toBeInTheDocument();
     for (const card of FEATURE_CARDS) {
       expect(screen.getByText(card.title)).toBeInTheDocument();

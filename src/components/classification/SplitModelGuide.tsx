@@ -1,7 +1,7 @@
 /**
  * SplitModelGuide — commission split ("Ăn Chia") model explanation.
  *
- * Explains the commission-split model common in nail salons (e.g. owner 4 /
+ * Explains the commission-split model common in service businesses (e.g. owner 4 /
  * worker 6) and how to report taxes correctly for it. Also offers a
  * classification suggestion based on how much control the owner retains,
  * supporting Requirement 6.5.
@@ -24,7 +24,7 @@ export interface SplitExample {
   note: string;
 }
 
-/** Typical commission splits seen in the nail industry. */
+/** Typical commission splits seen in the service industry. */
 export const SPLIT_EXAMPLES: SplitExample[] = [
   {
     label: "Chủ 4 / Thợ 6 (40/60)",
@@ -56,7 +56,7 @@ export function SplitModelGuide() {
         id="split-model-guide-heading"
         className="text-lg font-semibold text-gray-900"
       >
-        Mô hình Ăn Chia trong ngành nail (Commission split model)
+        Mô hình Ăn Chia trong ngành dịch vụ (Commission split model)
       </h3>
       <p className="mt-1 text-sm text-gray-600">
         Mô hình Ăn Chia là cách chia doanh thu mỗi dịch vụ giữa chủ tiệm và thợ

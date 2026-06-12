@@ -42,7 +42,6 @@ import PrivacyPolicyPage from "./components/disclaimer/PrivacyPolicyPage";
 import InputForm from "./components/form/InputForm";
 import AnalysisAnimation from "./components/animation/AnalysisAnimation";
 import ResultsView from "./components/results/ResultsView";
-import ClearDataButton from "./components/common/ClearDataButton";
 
 /** Derive the roadmap generator input from a calculator {@link TaxInput}. */
 function toRoadmapInput(input: TaxInput): RoadmapInput {
@@ -166,11 +165,6 @@ function AppContent() {
 
       <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8">
         {renderStep()}
-
-        {/* Allow users to clear all persisted data outside the active flow. */}
-        <div className="mt-12 flex justify-center">
-          <ClearDataButton onCleared={startOver} />
-        </div>
       </main>
 
       <Footer />

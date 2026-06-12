@@ -25,9 +25,7 @@ export default function Footer() {
           aria-label="Liên kết pháp lý (Legal links)"
           className="flex flex-col items-center gap-3 sm:flex-row sm:justify-between"
         >
-          <p className="text-sm text-gray-500">
-            © {currentYear} Chuyển Đổi Lương Tiệm Nail
-          </p>
+          <p className="text-sm text-gray-500">© {currentYear} LASH NP</p>
           <ul className="flex items-center gap-4">
             <li>
               <button

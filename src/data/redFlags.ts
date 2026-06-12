@@ -51,7 +51,7 @@ export const RED_FLAGS: RedFlag[] = [
     description:
       "Doanh thu khai báo thấp bất thường so với các tiệm cùng quy mô, cùng khu vực, hoặc không tương xứng với số ghế/thợ và chi phí thuê mặt bằng. IRS so sánh tỉ suất lợi nhuận của tiệm với chuẩn ngành (industry benchmark); chênh lệch lớn là red flag hàng đầu với ngành dùng nhiều tiền mặt.",
     prevention:
-      "Khai báo đầy đủ toàn bộ doanh thu, kể cả tiền mặt. Giữ tỉ lệ chi phí / doanh thu hợp lý so với chuẩn ngành nail. Đối chiếu doanh thu với số lượng dịch vụ thực tế và lịch hẹn.",
+      "Khai báo đầy đủ toàn bộ doanh thu, kể cả tiền mặt. Giữ tỉ lệ chi phí / doanh thu hợp lý so với chuẩn ngành. Đối chiếu doanh thu với số lượng dịch vụ thực tế và lịch hẹn.",
     severity: "high",
     relatedToTransition: true,
   },
@@ -69,7 +69,7 @@ export const RED_FLAGS: RedFlag[] = [
     id: "worker-misclassification",
     title: "Phân loại sai thợ (1099 thay vì W-2)",
     description:
-      "Xếp thợ làm 1099 (independent contractor) trong khi thực tế chủ tiệm kiểm soát lịch làm, giá dịch vụ, cung cấp dụng cụ và mặt bằng — tức là quan hệ employee. Đây là một trong những vấn đề bị IRS và bộ lao động bang nhắm tới mạnh nhất với ngành nail. Phạt gồm back taxes, penalties và interest.",
+      "Xếp thợ làm 1099 (independent contractor) trong khi thực tế chủ tiệm kiểm soát lịch làm, giá dịch vụ, cung cấp dụng cụ và mặt bằng — tức là quan hệ employee. Đây là một trong những vấn đề bị IRS và bộ lao động bang nhắm tới mạnh nhất với ngành dịch vụ. Phạt gồm back taxes, penalties và interest.",
     prevention:
       "Dùng tiêu chí kiểm soát của IRS (behavioral, financial, relationship) để phân loại đúng. Nếu chủ tiệm kiểm soát cách làm việc, thợ thường phải là W-2. Khi không chắc, nộp Form SS-8 để IRS xác định, và tham vấn CPA.",
     severity: "high",

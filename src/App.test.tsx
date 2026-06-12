@@ -26,7 +26,7 @@ describe("App flow router", () => {
 
     // Header title.
     expect(
-      screen.getByRole("heading", { name: /Chuyển Đổi Lương Tiệm Nail/i }),
+      screen.getByRole("button", { name: /Safe Payroll/i }),
     ).toBeInTheDocument();
     // Persistent disclaimer banner (Requirement 3.7).
     expect(

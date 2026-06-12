@@ -57,7 +57,7 @@ export const COMPARISON_ROWS: ComparisonRow[] = [
     aspect: "Rủi ro pháp lý (Legal risk)",
     w2: "Rủi ro thấp hơn về misclassification; chi phí nhân công cao hơn cho chủ.",
     contractor1099:
-      "Rủi ro cao nếu phân loại sai — IRS và bộ lao động bang nhắm mạnh vào ngành nail.",
+      "Rủi ro cao nếu phân loại sai — IRS và bộ lao động bang nhắm mạnh vào ngành dịch vụ dùng nhiều tiền mặt.",
   },
 ];
 
