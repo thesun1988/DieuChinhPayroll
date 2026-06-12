@@ -9,7 +9,6 @@
  */
 
 import { useFlow } from "../../context/FlowContext";
-import MobileMenu from "./MobileMenu";
 
 /** Minimal application header with clickable title. */
 export default function Header() {
@@ -25,11 +24,6 @@ export default function Header() {
         >
           Safe Payroll
         </button>
-
-        {/* Hamburger menu only on mobile (<768px). */}
-        <div className="md:hidden">
-          <MobileMenu />
-        </div>
       </div>
     </header>
   );
